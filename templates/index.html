@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+    <h1>Heart Disease Prediction</h1>
+    <form action="/predict" method="post">
+        <label>Age:</label><input type="text" name="age"><br>
+        <label>Sex (0=Female, 1=Male):</label><input type="text" name="sex"><br>
+        <label>Chest Pain Type:</label><input type="text" name="chest_pain_type"><br>
+        <label>Resting BP:</label><input type="text" name="resting_bp_s"><br>
+        <label>Cholesterol:</label><input type="text" name="cholesterol"><br>
+        <label>Fasting Blood Sugar:</label><input type="text" name="fasting_blood_sugar"><br>
+        <label>Resting ECG:</label><input type="text" name="resting_ecg"><br>
+        <label>Max Heart Rate:</label><input type="text" name="max_heart_rate"><br>
+        <label>Exercise Angina:</label><input type="text" name="exercise_angina"><br>
+        <label>Oldpeak:</label><input type="text" name="oldpeak"><br>
+        <label>ST Slope:</label><input type="text" name="ST_slope"><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
